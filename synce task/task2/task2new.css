@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+ 
+body{
+    font-family: sans-serif;
+    background: dimgray;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+
+}
+img{
+    width: 5.5rem;
+    height: 5.2rem;
+    border-radius: 50%;
+
+}
+.img{
+    position: fixed;
+
+}
+#title{
+    text-align: center;
+    padding: 0.8rem 0;
+    font-size: 3rem;
+    color: white;
+    background:linear-gradient(black,gray) ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.questions{
+    margin: 3rem auto;
+    width: 90vw;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    cursor: default;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+#question{
+    margin-bottom:1rem ;
+    color: wheat;
+
+}
+.option{
+    margin-bottom:0.5rem ;
+    font-size: 1.2rem;
+    border-bottom: solid 0.1rem greenyellow;
+    width: 15rem;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+}
+.option:hover{
+    color: white;
+
+}
+ol{
+    position: relative;
+    padding: 0 1.5rem;
+    color: white;
+}
+span{
+    display: block;
+    padding: 0.1rem 0.7rem;
+    border-radius: 1rem;
+}
+#answer{
+    margin-top: 2.5rem;
+}
+#stat{
+    margin-top: 2.5rem;
+    color: yellowgreen;
+
+}
+.buttons{
+    padding: 0.2rem 1.5rem;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+    color: white;
+    background: linear-gradient(navy,rgb(244, 87, 3),green);
+
+}
+
+button:active{
+    background: whitesmoke;
+}
+#scoreboard,#answerBank{
+    width: 20rem;
+    background: linear-gradient(yellow,black);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 5rem;
+    display: none;
+}
+#score-title{
+    margin: 1rem 0;
+}
+
+#score-btn,#check-answer{
+    margin-top: 1rem;
+
+}
+#score{
+    font-size: 2.5rem;
+
+}
+
+#answerBank li{
+    text-align: left;
+    margin-bottom: 0.2rem;
+    font-size: large;
+}
+#answers{
+    margin-top: 1rem;
+
+}
+@media(max-width: 450pz){
+    html{
+        font-size: 45%;
+    }
+}
